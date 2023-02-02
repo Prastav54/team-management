@@ -1,0 +1,29 @@
+const ERROR = 'error';
+const SUCCESS = 'success';
+const TEAM_ADDED_SUCCESSFULLY = 'Team Added Successfully';
+const TEAM_UPDATED_SUCCESSFULLY = 'Team Updated Successfully';
+const EMPLOYEE_ADDED_SUCCESSFULLY = 'Employee Added Successfully';
+const EMPLOYEE_UPDATED_SUCCESSFULLY = 'Employee Updated Successfully';
+const TEAM_FETCHED_SUCCESSFULLY = 'Team Fetched Successfully';
+const EMPLOYEE_FETCHED_SUCCESSFULLY = 'Employee Fetched Successfully';
+const TEAM_DELETED_SUCCESSFULLY = 'Team Deleted Successfully';
+const EMPLOYEE_DELETED_SUCCESSFULLY = 'Employee Deleted Successfully';
+const TEAM_NOT_FOUND = 'Team Not Found';
+const EMPLOYEE_NOT_FOUND = 'Employee Not Found';
+const TOTAL_COUNT_FOUND = 'TOTAL_COUNT_FOUND'
+
+module.exports = {
+    ERROR,
+    SUCCESS,
+    TEAM_ADDED_SUCCESSFULLY,
+    TEAM_UPDATED_SUCCESSFULLY,
+    EMPLOYEE_ADDED_SUCCESSFULLY,
+    EMPLOYEE_UPDATED_SUCCESSFULLY,
+    TEAM_FETCHED_SUCCESSFULLY,
+    EMPLOYEE_FETCHED_SUCCESSFULLY,
+    TEAM_DELETED_SUCCESSFULLY,
+    EMPLOYEE_DELETED_SUCCESSFULLY,
+    TEAM_NOT_FOUND,
+    EMPLOYEE_NOT_FOUND,
+    TOTAL_COUNT_FOUND
+}

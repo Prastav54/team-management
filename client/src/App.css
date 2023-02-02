@@ -1,0 +1,16 @@
+.error-message {
+    color: #d32f2f;
+    font-size: 90%;
+    vertical-align: top;
+  }
+  
+.error-message::before {
+    content: "⚠";
+    font-size: 1rem;
+    margin-right: 5px;
+    vertical-align: top;
+  }
+
+.hidden-input{
+  display: none;
+}
